@@ -1,0 +1,154 @@
+/* -----------------HEADER------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B33332;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;    
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.menu li:first-child{
+    margin-left: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px;
+    font-weight: bold;
+}
+/* -----------------HEADER------------------------- */
+
+
+/* -----------------MAIN--------------------------- */
+
+body{
+    font-family: 'Inter', Inter;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen_background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/FONDO_MAIN_INICIO.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    text-align: center;
+}
+
+
+.cuerpo_inicio{
+    background-color:  rgba(255, 255, 255, 0.3);
+    position: absolute;
+    width: 482px;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex; /*utilizo flexbox para poder centrar el contenido del div */
+    flex-direction: column;   
+    justify-content: center; /* centra verticalmente el contenido */
+    align-items: center;
+
+}
+
+
+
+.title_{
+
+}
+
+
+.leyenda h2{
+    padding: 2px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+button {
+    padding: 10px 85px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #B33332; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #a02020; /* anim para cambiar el color del botón "contacto" al pasar el mouse*/
+}
+
+/* -----------------MAIN--------------------------- */
+
+
+
+/* -----------------FOOTER------------------------- */
+.footer_ {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #B33332;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones_rrss {
+    position: absolute;
+    left: 20px; /* Ajusta según el margen deseado */
+    text-decoration: none;
+
+}
+
+.botones_rrss a {
+    display: inline-block;
+    margin: 0 5px; /* Opcional: para dar espacio entre los iconos */
+}
+
+.botones_rrss img {
+    display: block; /* Asegura que la imagen se alinee correctamente */
+}
+
+
+footer p {
+    margin: 0;
+}
+/* -----------------FOOTER------------------------- */

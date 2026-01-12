@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contacto Veterinaria Felipe</title>
+		<link rel="stylesheet" href="styles.css">
+		<!---------------------------FUENTE UTILIZADA-------------------------------->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<!---------------------------LIBRERÍA TOASTR(ALERT PARA FORMULARIO)----------->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+		<!---------------------------LIBRERÍA GSAP(ANIMACIÓN PARA TRANSICIÓN ENTRE PÁGINAS)----------->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+
+	</head>
+
+
+
+	<body>
+		<!---------------------------HEADER-------------------------------->
+		<div class="header_">
+			<header>
+				<nav>
+		        	<ul class="menu">
+		            	<li ><a href="../inicio/" class="anim_transicion" > Inicio</a alt="Inicio"></li>
+		            	<li ><a href="../servicios/" class="anim_transicion" > Servicios</a alt="Servicios"></li>
+		            	<li ><a href="./" class="anim_transicion" > Contacto</a alt="Contacto"></li>
+		        	</ul>
+		    	</nav>
+			</header>
+		</div>
+		<!---------------------------HEADER-------------------------------->
+
+
+		<!---------------------------MAIN---------------------------------->
+		<div class="container">
+			<div class="form_contacto">
+
+				<form> 
+					<input type="text" name="nombre" id="input_nombre" placeholder="NOMBRE" required autocomplete="off">
+					<input type="text" name="apellido" id="input_apellido" placeholder="APELLIDO" required autocomplete="off">
+					<textarea cols="35" rows="15" id="mensaje" placeholder="ESCRIBA SU MENSAJE" required autocomplete="off"></textarea>
+					
+					<button type="button" id="button_send"> ENVIAR </button>
+				</form>
+			</div>
+
+			<div class="map_container">
+			    <h2>O encontranos en: "Pringles 1705", de Lunes a Domingo.</h2>
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.356170525423!2d-58.18780492530971!3d-26.18508966319445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945ca5f9a32cdc5b%3A0x9118ec0bcb36fcb5!2sPringles%201705%2C%20P3600%20Formosa!5e0!3m2!1ses!2sar!4v1725840802702!5m2!1ses!2sar" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+
+
+		</div>
+		
+		<!---------------------------MAIN---------------------------------->
+
+
+		<!---------------------------FOOTER-------------------------------->
+		<div class="footer_">
+		    <footer>
+		        <div class="botones_rrss">
+
+		        	<a href="https://www.facebook.com/Clinica-Veterinaria-Felipe-100082902114183/" target="_blank">
+		                <img src="./images/icons/facebook.png" alt="facebook">
+		            </a>
+
+		            <a href="https://www.instagram.com/clinicavetefelipe?igsh=ZmlrY2ZxdXB1OGcz" target="_blank">
+		                <img src="./images/icons/instagram.png" alt="instagram">
+		            </a>
+		            
+		        </div>
+		        <p> © 2024 LAUTARO LOPEZ. </p>
+		    </footer>
+		</div>
+		<!---------------------------FOOTER-------------------------------->
+		
+	</body>
+	<!-------------------------------ENLACE AL ARCHIVO JAVASCRIPT---------->
+	<script src="script.js"></script>
+</html>

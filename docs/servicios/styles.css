@@ -1,0 +1,108 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* -----------------HEADER------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B33332;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;    
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.menu li:first-child{
+    margin-left: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px;
+    font-weight: bold;
+}
+/* -----------------HEADER------------------------- */
+
+/*---------------------------ESTILO DEL MENÚ----------------------------------*/
+.swiper-container {
+    width: 100%;
+    height: calc(100vh - 100px); /* Ajusta esto según la altura del header y el footer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Altura del header */
+    margin-bottom: 50px; /* Altura del footer */
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  
+  /*---------------------------CENTRA EL CONTENIDO----------------------------------*/
+  /*
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+/* -----------------FOOTER------------------------- */
+.footer_ {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #B33332;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones_rrss {
+    position: absolute;
+    left: 20px; /* Ajusta según el margen deseado */
+    text-decoration: none;
+
+}
+
+.botones_rrss a {
+    display: inline-block;
+    margin: 0 5px; /* Opcional: para dar espacio entre los iconos */
+}
+
+.botones_rrss img {
+    display: block; /* Asegura que la imagen se alinee correctamente */
+}
+
+
+footer p {
+    margin: 0;
+}
+/* -----------------FOOTER------------------------- */

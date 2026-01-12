@@ -1,0 +1,206 @@
+
+/* -----------------AJUSTES GENERALES-------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -----------------AJUSTES GENERALES-------------- */
+
+/* -----------------HEADER------------------------- */
+.header_{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B33332;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;    
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.menu li:first-child{
+    margin-left: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:#000000;
+    padding: 10px;
+    font-weight: bold;
+}
+/* -----------------HEADER------------------------- */
+
+
+
+/* -----------------MAIN--------------------------- */
+body{/* ajustes del tipo de fuente*/
+    font-family: 'Inter', Inter;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/background_contacto.png'); 
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+/* -----------------PROPIEDADES FORM--------------- */
+.form_contacto{
+    background-color:  rgba(255, 255, 255, 1);
+    position: absolute;
+    width: 482px;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex; /*utilizo flexbox para poder centrar el contenido del div */
+    flex-direction: column;   
+    justify-content: center; /* centra verticalmente el contenido */
+    align-items: center;
+
+}
+
+.form_contacto {/* ajustes generales del contenedor del form*/
+    background-color:  rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form_contacto input { /* ajustes de los inputs del form*/
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #555;
+}
+
+.form_contacto textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #555;
+    resize: none;
+}
+
+.form_contacto button { /* ajustes del botón de enviar */
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b13331;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form_contacto button:hover { /*animación para el botón de "enviar" cuando el mouse pasa por encima del botón*/
+    background-color: #a02020;
+}
+
+
+/* -----------------MAP CONTAINER--------------------------- */
+/* Contenedor del mapa, mismo estilo que el del formulario */
+.map_container {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    width: 482px;
+    padding: 20px;
+    right: 0; /* Posiciona el contenedor en el lado derecho */
+    bottom: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar verticalmente el contenido */
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Leyenda del mapa */
+.map_container h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px; /* Espacio entre la leyenda y el mapa */
+    color: #333;
+}
+
+/* Mapa */
+.map_container iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px; /* Bordes redondeados para que coincida con el contenedor */
+    border: none;
+}
+/* -----------------MAP CONTAINER--------------------------- */
+
+
+/* -----------------MAIN--------------------------- */
+
+
+
+
+/* -----------------FOOTER------------------------- */
+.footer_ {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #B33332;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones_rrss {
+    position: absolute;
+    left: 20px; /* Ajusta según el margen deseado */
+    text-decoration: none;
+
+}
+
+.botones_rrss a {
+    display: inline-block;
+    margin: 0 5px; /* Opcional: para dar espacio entre los iconos */
+}
+
+.botones_rrss img {
+    display: block; /* Asegura que la imagen se alinee correctamente */
+}
+
+
+footer p {
+    margin: 0;
+}
+/* -----------------FOOTER------------------------- */
+
+
+
+
+
+
