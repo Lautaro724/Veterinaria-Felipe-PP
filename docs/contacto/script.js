@@ -3,7 +3,7 @@ const enviarFormulario = () => {
 	let nombre = document.getElementById('input_nombre').value.trim();
 	let apellido = document.getElementById('input_apellido').value.trim();
 	let mensaje = document.getElementById('mensaje').value.trim();
-	let numero = 5493704555322;
+	let numero = 5493704123456;
 	//---------MENSAJE DE ALERTA AL NO COMPLETAR LOS INPUTS Y ENVIAR EL FORMULARIO(librería "toastr")---------//
 	if (nombre === "" || apellido === "" || mensaje === "") {
         toastr.options = {
