@@ -179,14 +179,14 @@ body{/* ajustes del tipo de fuente*/
 
 .botones_rrss {
     position: absolute;
-    left: 20px; /* Ajusta según el margen deseado */
+    left: 20px; /* para ajustar según el margen deseado */
     text-decoration: none;
 
 }
 
 .botones_rrss a {
     display: inline-block;
-    margin: 0 5px; /* Opcional: para dar espacio entre los iconos */
+    margin: 0 5px; /* para dar espacio entre los iconos */
 }
 
 .botones_rrss img {
